@@ -9,7 +9,7 @@ body{
     height: 100%;
     background-color: #ff0778;
     flex-direction: column;
-    gap:16%;
+    gap:17%;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -21,7 +21,7 @@ body{
 
 .container {
     width: 335px;
-    height: 390px;
+    height: 400px;
     background-color: #fff;
     border-radius: 10px;
     
@@ -29,10 +29,15 @@ body{
 
 .menu {
     background-color: #fff;
-    height: 50px;
+    height: 59px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 29px;
+    position: fixed;
+    width: 100%;
+    
+
 }
 
 .buser-logo{
@@ -41,11 +46,13 @@ body{
     width: auto;
     height: auto;
     display: inline-block;
+    
 }
 
 a{
     color: #f11175;
     font-weight: 700;
+    padding-right: 65px;
     
 }
 
@@ -69,5 +76,22 @@ a{
 }
 
 footer{
-    height: 100px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    background-color: #fff;
+    align-items: center;
+
+}
+
+.cont{
+    height: 59px;
+}
+
+.search-img{
+    display: block;
+    width: 20px;
+    height: 20px;
 }
