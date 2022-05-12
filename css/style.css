@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    background-color: #ff0778;
+    flex-direction: column;
+    gap:16%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #e45776;
+    background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png),linear-gradient(135deg,#ad1457,#f11075);
+}
+
+
+
+.container {
+    width: 335px;
+    height: 390px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.menu {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buser-logo{
+    width: 192px;
+    height: 35px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+a{
+    color: #f11175;
+    font-weight: 700;
+    
+}
+
+.texto{
+    width: 335px;
+    height: 100px;
+    padding-top: 18px;
+    font-size: 30px;
+    color: #fff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.texto-pequeno {
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: none;
+    padding-top: 20px;
+}
+
+footer{
+    height: 100px;
+}
