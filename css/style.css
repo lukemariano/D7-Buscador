@@ -24,7 +24,7 @@ body{
 
 
 .container {
-    width: 314px;
+    width: 345px;
     height: 400px;
     background-color: #fff;
     border-radius: 10px;
@@ -61,7 +61,7 @@ a{
 }
 
 .texto{
-    width: 314px;
+    width: 345px;
     height: 100px;
     padding-top: 18px;
     font-size: 30px;
