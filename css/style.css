@@ -24,7 +24,7 @@ body{
 
 
 .container {
-    width: 335px;
+    width: 343px;
     height: 400px;
     background-color: #fff;
     border-radius: 10px;
@@ -61,7 +61,7 @@ a{
 }
 
 .texto{
-    width: 335px;
+    width: 343px;
     height: 100px;
     padding-top: 18px;
     font-size: 30px;
@@ -73,7 +73,7 @@ a{
 }
 
 .texto-pequeno {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     text-transform: none;
     padding-top: 20px;
@@ -111,4 +111,56 @@ span {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
+form {
+    padding: 20px;
+}
+
+.text-form-one{
+    padding-top: 5px;
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #424242;
+    margin-bottom: 3px;
+}
+
+.text-form{
+    padding-top: 20px;
+    display: block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #424242;
+    margin-bottom: 3px;
+}
+
+.icon-input {
+    background-image: url('../img/search-interface-symbol.png');
+    background-size: 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+
+input {
+    width: 99%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #424242;
+    font-size: 16px;
+}
+
+input[type=button]{
+    margin-top: 14px;
+    background-color:#f11075;
+    border-radius: 7px;
+    height: 45px;
+    color: #fff;
+}
+
 
