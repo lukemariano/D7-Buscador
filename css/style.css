@@ -24,7 +24,7 @@ body{
 
 
 .container {
-    width: 343px;
+    width: 314px;
     height: 400px;
     background-color: #fff;
     border-radius: 10px;
@@ -61,7 +61,7 @@ a{
 }
 
 .texto{
-    width: 343px;
+    width: 314px;
     height: 100px;
     padding-top: 18px;
     font-size: 30px;
@@ -182,7 +182,7 @@ input[type=button]{
     color: #fff;
     background-image: url('../img/search-interface-symbol.png');
     background-size: 17px;
-    background-position: 106px 12px; 
+    background-position: 90px 12px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
 }
